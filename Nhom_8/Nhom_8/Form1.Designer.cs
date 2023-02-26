@@ -47,24 +47,24 @@ namespace Nhom_8
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(171, 96);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 17);
+            this.label1.Size = new System.Drawing.Size(100, 17);
             this.label1.TabIndex = 1;
-            this.label1.Text = "UserName";
+            this.label1.Text = "tên đăng nhập";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(174, 154);
+            this.label2.Location = new System.Drawing.Point(171, 164);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Mật khẩu";
+            this.label2.Text = "mật khẩu";
             // 
             // txtmatkhau
             // 
             this.txtmatkhau.Location = new System.Drawing.Point(380, 159);
             this.txtmatkhau.Name = "txtmatkhau";
-            this.txtmatkhau.Size = new System.Drawing.Size(100, 22);
+            this.txtmatkhau.Size = new System.Drawing.Size(104, 22);
             this.txtmatkhau.TabIndex = 3;
             // 
             // Form1

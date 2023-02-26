@@ -38,9 +38,9 @@ namespace Nhom_8
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(384, 96);
+            this.txtUserName.Location = new System.Drawing.Point(315, 96);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(100, 22);
+            this.txtUserName.Size = new System.Drawing.Size(169, 22);
             this.txtUserName.TabIndex = 0;
             // 
             // label1
@@ -57,25 +57,26 @@ namespace Nhom_8
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(171, 164);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 17);
+            this.label2.Size = new System.Drawing.Size(66, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "mật khẩu";
             // 
             // txtpassword
             // 
-            this.txtpassword.Location = new System.Drawing.Point(380, 159);
+            this.txtpassword.Location = new System.Drawing.Point(315, 159);
             this.txtpassword.Name = "txtpassword";
-            this.txtpassword.Size = new System.Drawing.Size(100, 22);
+            this.txtpassword.Size = new System.Drawing.Size(165, 22);
             this.txtpassword.TabIndex = 3;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(303, 221);
+            this.btnLogin.Location = new System.Drawing.Point(383, 227);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(97, 23);
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "đăng nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // Form1
             // 

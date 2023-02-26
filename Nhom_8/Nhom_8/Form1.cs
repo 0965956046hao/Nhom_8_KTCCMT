@@ -16,5 +16,26 @@ namespace Nhom_8
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string username;
+            string password;
+
+            username = txtUserName.Text;
+            password = txtpassword.Text;
+
+            if (username == "admin" && password == "admin")
+            {
+                Login login = new Login();
+                txtUserName.Text = "";
+                txtpassword.Text = "";
+                login.Show();
+            }
+            else
+            {
+                MessageBox.Show("Login Failed!");
+            }
+        }
     }
 }
